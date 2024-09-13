@@ -1,13 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.customColor{
+    /* background:radial-gradient(#ffffff33 1px, #00091d 1px); */
+    background-color: #00091d; /* Base background color */
+  background-image: radial-gradient(#ffffff33 1px, transparent 1px); /* Creates the dots */
+  background-size: 20px 20px; /* Adjust the spacing of the dots */
+}
+.main{
+    background: rgba( 255, 255, 255, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 24px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.contactForm{
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 24px;
+    
+    
+
 }
+.form{
+    background: rgba( 255, 255, 255, 0.05 );
+    color: white;
+}
+.blogContainer{
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 24px;
+    width:screen;
+    
+}
+.blogContainer2{
+    
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding:24px;
+    /* height: fit-content; */
+    width:screen;
+}
+.element {
+    background-color: rgba(156, 163, 175, 0.1); /* gray-400 with 10% opacity */
+    padding-top: 0.25rem; /* py-1 translates to 1 rem padding on Y-axis (0.25rem = 1/4 rem) */
+    padding-bottom: 0.25rem;
+    backdrop-filter: blur(12px); /* backdrop-blur-md */
+    /* border: 1px solid rgba(156, 163, 175, 0.5); gray-400 with 50% opacity for border */
+    border-radius: 0.375rem; 
+    
+}
+.heroButton{
+    background-color: rgba(24, 70, 150, 0.833);
+    
+    }
+
+.skillBox{
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    /* margin: 10px 10px 10px 10px; */
+    height: 120px;
+    width: 120px;
+    margin-left: 15px;
+    display:inline-flex;
+    flex-direction: row;
+
+    }
+    .projectCard{
+        background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 120px;
+    width: 350px;
+    margin-top: 15px;
+    
+    display:inline-flex;
+    flex-direction: row;
+    }
