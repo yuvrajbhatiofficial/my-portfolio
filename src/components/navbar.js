@@ -7,7 +7,7 @@ export default function Navbar() {
       <nav className="menu  bg-gray-400 py-1 backdrop-filter 
                 backdrop-blur-md  bg-opacity-5  text-white flex  justify-between fixed top-0 w-full shadow-md shadow-slate-900 ">
         
-        <Link className="nav-link" to="/"><img src="./Bhati.png" alt="" className="w-12 h-12 ml-2" /></Link>
+        <Link className="nav-link" to="/"><img src="/Bhati.png" alt="" className="w-12 h-12 ml-2" /></Link>
 
         <ul className=" space-x-4 flex justify-end items-center mx-1 ">
           

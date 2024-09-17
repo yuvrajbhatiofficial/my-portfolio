@@ -16,7 +16,7 @@ function hero() {
         
         <span className=' font-bold my-1 font-sans text-7xl bg-clip-text text-transparent  bg-gradient-to-r from-amber-500 to-pink-600 '>Yuvraj Singh Bhati</span>
         
-        <div className='font-mono my-2'>Developer , Tech Enthusiast ,Artist, gamer</div>
+        <div className='font-mono my-2'>Developer , Tech Enthusiast ,Artist</div>
         <div className='font-sans font-medium'>I'm a full-stack developer passionate about turning ideas into reality through code. With experience across multiple frameworks and languages, I am here to craft intuitive, efficient, and impactful web applications.</div>
         <div className=" flex mt-3  space-x-2 flex-row ">
           <button className='border-white border p-2 cursor-pointer font-mono  shadow-2xl hover:shadow-blue-900 font-semibold rounded-full '>Resume</button>
