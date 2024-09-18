@@ -41,7 +41,7 @@ export default function Contact() {
           <div className='contactForm mx-4 flex flex-col pt-12 items-center space-y-4 my-5'>
             <div className='mb-3'>
               <input 
-                className='form w-full h-10 bg rounded-lg p-2 shadow-md' 
+                className='form w-full h-10 bg rounded-lg p-5 shadow-md' 
                 type="text" 
                 name='user_name' 
                 placeholder='Enter your Name' 
@@ -51,7 +51,7 @@ export default function Contact() {
 
             <div className="mb-3">
               <input 
-                className='form w-full h-10 rounded-lg p-2 shadow-md' 
+                className='form w-full h-10 rounded-lg p-5 shadow-md' 
                 type="email" 
                 name='user_email' 
                 placeholder='Enter your Email ID' 
@@ -61,7 +61,7 @@ export default function Contact() {
 
             <div className="mb-3">
               <textarea 
-                className='form w-full h-36 rounded-lg p-2 shadow-md' 
+                className='form w-full h-36 rounded-lg p-5 shadow-md' 
                 name='message' 
                 placeholder='Your Message' 
                 required 
