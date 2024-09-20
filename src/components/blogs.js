@@ -9,7 +9,7 @@ const Blog = () => {
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
                 <span className="mb-2 block text-lg font-semibold text-primary">
-                  Our Blogs
+                 
                 </span>
                 <h2 className="mb-4 text-3xl font-bold font-mono text-white sm:text-4xl md:text-[40px]">
                   My Recent Blogs
