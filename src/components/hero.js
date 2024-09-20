@@ -64,22 +64,8 @@ function hero() {
       </div> */}
 
       {/* this is my project area */}
-      <div className="element">
         <h1 className='font-bold font-mono text-white text-5xl'>Projects</h1>
-        <div className="projectArea flex flex-col  items-center ">
-          <div className="projectCard">
-            <h1 className='text-white font-mono text-2xl font-bold ml-2'>TextUtils app</h1>
-          </div>
-          <div className="projectCard">
-          <h1 className='text-white font-mono text-2xl font-bold ml-2'>EcoAlert</h1>
-          </div>
-          <div className="projectCard">
-          <h1 className='text-white font-mono text-2xl font-bold ml-2'>Facebook Clone (login page)</h1>
-          </div>
-        </div>
-      </div>
-
-
+      
 
 
 
