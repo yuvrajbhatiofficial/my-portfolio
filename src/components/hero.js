@@ -26,12 +26,14 @@ function hero() {
           applications.
         </div>
         <div className=" flex mt-3  space-x-2 flex-row ">
-          <button className="border-white border p-2 cursor-pointer font-mono  shadow-2xl hover:shadow-blue-900 font-semibold rounded-full ">
-            Resume
+          <a target="/" href="https://drive.google.com/file/d/1cD5dBi6Y-oLK0ZkbdScADjjOf5mDdmU9/view?usp=sharing">
+          
+          <button className="border-white border p-2 cursor-pointer font-mono  shadow-2xl hover:shadow-blue-500 hover:bg-white hover:text-black font-semibold rounded-full ">
+             My Resume
           </button>
-          <button className="border-white border p-2 cursor-pointer font-mono  shadow-2xl hover:shadow-blue-900 font-semibold rounded-full ">
-            Contact Me
-          </button>
+          </a>
+         
+         
         </div>
 
         <div className=" flex space-x-3 justify-start my-2">

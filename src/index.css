@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .customColor{
     /* background:radial-gradient(#ffffff33 1px, #00091d 1px); */
     background-color: #00091d; /* Base background color */
   background-image: radial-gradient(#ffffff33 1px, transparent 1px); /* Creates the dots */
   background-size: 20px 20px; /* Adjust the spacing of the dots */
+  
 }
+
+
 .main{
     background: rgba( 255, 255, 255, 0.05 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
