@@ -26,7 +26,7 @@ function hero() {
           applications.
         </div>
         <div className=" flex mt-3  space-x-2 flex-row ">
-          <a target="/" href="https://drive.google.com/file/d/1cD5dBi6Y-oLK0ZkbdScADjjOf5mDdmU9/view?usp=sharing">
+          <a target="/" href="https://drive.google.com/file/d/1Z9NH7hnk9_e2DOq5IshLQu81Jd0cEYSo/view?usp=sharing">
           
           <button className="border-white border p-2 cursor-pointer font-mono  shadow-2xl hover:shadow-blue-500 hover:bg-white hover:text-black font-semibold rounded-full ">
              My Resume
