@@ -77,7 +77,7 @@ function hero() {
 {/*tech stack area dont open p element  */}
 <div className="main m-3 flex flex-wrap">
         <h3 className="font-bold font-mono text-white mb-2 text-5xl">My Tech Stack</h3>
-           <p className="flex size-max space-x-5 flex-wrap">
+           <p className="flex size-max space-x-5  flex-wrap">
           {" "}
           <a
             href="https://developer.android.com"
@@ -86,6 +86,7 @@ function hero() {
           >
             {" "}
             <img
+            className="ml-5"
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg"
               alt="android"
               width="40"
@@ -104,7 +105,7 @@ function hero() {
           <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
             {" "}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+              src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/bootstrap/bootstrap-original-wordmark.svg"
               alt="bootstrap"
               width="40"
               height="40"
