@@ -23,7 +23,7 @@ function hero() {
           Developer , Tech Enthusiast ,Artist
         </div>
         <div className="font-sans font-medium">
-          I'm a full-stack developer passionate about turning ideas into reality
+          I'm a indie developer passionate about turning ideas into reality
           through code. With experience across multiple frameworks and
           languages, I am here to craft intuitive, efficient, and impactful web
           applications.
