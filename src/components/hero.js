@@ -454,7 +454,7 @@ function hero() {
               <p className="mt-2 text-sm">
               this is a React app for customisation of text and features having alerts and dark mode enable functionalities.
               </p>
-              <a href="https://textutilityapp.tiiny.site"><button className="bg-blue-500 font-semibold mt-4 px-3 py-2 rounded-sm hover:bg-blue-700 ">
+              <a href="https://textutilityapp.tiiny.site"><button className="bg-blue-500 rounded-3xl font-semibold mt-4 px-3 py-2 rounded-sm hover:bg-blue-700 ">
                 View Project
               </button>
               </a>
@@ -475,7 +475,7 @@ function hero() {
               <p className="mt-2 text-sm">
               Developed a clone of the Facebook login page using Tailwind CSS. The project showcases skills in responsive design...
               </p>
-              <a href="https://github.com/yuvrajbhatiofficial/Facebook-Login-Page-Clone"><button className="bg-blue-500 font-semibold mt-4 px-3 py-2 rounded-sm hover:bg-blue-700 ">
+              <a href="https://github.com/yuvrajbhatiofficial/Facebook-Login-Page-Clone"><button className="bg-blue-500 rounded-3xl font-semibold mt-4 px-3 py-2 rounded-sm hover:bg-blue-700 ">
                 View Project
               </button>
               </a>
@@ -495,7 +495,7 @@ function hero() {
               <p className="mt-2 text-sm">
               this an mobile application project for hackathon 2024 (Frost hacks) by MLH
               </p>
-              <a href="https://github.com/yuvrajbhatiofficial/EcoAlert"><button className="bg-blue-500 font-semibold mt-4 px-3 py-2 rounded-sm hover:bg-blue-700 ">
+              <a href="https://github.com/yuvrajbhatiofficial/EcoAlert"><button className="bg-blue-500 rounded-3xl font-semibold mt-4 px-3 py-2 rounded-sm hover:bg-blue-700 ">
                 View Project
               </button>
               </a>
