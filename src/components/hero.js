@@ -4,22 +4,24 @@ import "react-social-icons/vimeo";
 import Imageone from "./369315286-21fd0159-eeb0-497f-9baf-a8d066f4e86c.jpg"
 import Facebook from "./facebook.jpeg"
 import Gallery from "./gallery.jpg"
+
 // import { ImMail4 } from "react-icons/im";
+
 <link rel="stylesheet" href="index.css" />;
 function hero() {
   return (
     <>
-      <div className="text-slate-600  font-mono shadow-lg shadow-inherit text-center mt-24">
+      <div className="text-slate-600 font-mono shadow-lg shadow-inherit text-center mt-24">
         welcome to my portfolio{" "}
       </div>
       <div className="main mx-4 my-10  text-white ">
         <div className="font-bold font-mono text-4xl">Hi I'am</div>
 
-        <span className=" font-bold my-1 font-sans text-7xl bg-clip-text text-transparent  bg-gradient-to-r from-amber-500 to-pink-600 ">
+        <span className="  hover:cursor-custom font-bold my-1 font-sans text-7xl bg-clip-text text-transparent  bg-gradient-to-r from-amber-500 to-pink-600 ">
           Yuvraj Singh Bhati
         </span>
 
-        <div className="font-mono my-2">
+        <div className="font-mono my-2 ">
           Developer , Tech Enthusiast ,Artist
         </div>
         <div className="font-sans font-medium">
@@ -33,7 +35,7 @@ function hero() {
             target="/"
             href="https://drive.google.com/file/d/1Z9NH7hnk9_e2DOq5IshLQu81Jd0cEYSo/view?usp=sharing"
           >
-            <button className="border-white border p-2 cursor-pointer font-mono  shadow-2xl hover:shadow-blue-500 hover:bg-white hover:text-black font-semibold rounded-full ">
+            <button className="border-white border  hover:scale-105 transition-transform duration-300 ease-in-out p-2 cursor-pointer  font-mono  shadow-2xl hover:shadow-blue-500 hover:bg-white hover:text-black font-semibold rounded-full ">
               My Resume
             </button>
           </a>
@@ -48,38 +50,11 @@ function hero() {
         </div>
       </div>
 
-      {/* this is skills and tech stack section   */}
-      {/* <div className='element mx-4'>
-        <h1 className='font-bold font-mono text-white text-5xl'>Skills & Tech Stack</h1>
-        <div className="skill text-center   space-y-2">
-          <div className="skillBox">
-          
-          </div>
-          <div className="skillBox">
-          
-          </div>
-          <div className="skillBox"> 
-            
-          </div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-          <div className="skillBox"></div>
-        </div>
-      </div> */}
+     
 
 {/*tech stack area dont open p element  */}
 <div className="main m-3 flex flex-wrap">
-        <h3 className="font-bold font-mono text-white mb-2 text-5xl">My Tech Stack</h3>
+        <h3 className="font-bold font-mono text-white mb-2 text-5xl hover:translate-x-4 transition-transform duration-300 ease-in-out ">My Tech Stack</h3>
            <p className="flex size-max space-x-5  flex-wrap">
           {" "}
           <a
@@ -438,7 +413,7 @@ function hero() {
 
       {/* this is my project area */}
       <div className="element p-4  m-2">
-      <h1 className="font-bold font-mono text-white mb-2 text-5xl">Projects</h1>
+      <h1 className="font-bold font-mono text-white mb-2 text-5xl hover:translate-x-4 transition-transform duration-300 ease-in-out ">Projects</h1>
         <div className="lotsOfCards space-y-4  grid md:grid-flow-col md:space-x-4 md:space-y-0">
           <div className="card max-w-sm shadow-xl hover:shadow-blue-950 rounded-lg overflow-hidden relative ">
             <div
@@ -454,7 +429,7 @@ function hero() {
               <p className="mt-2 text-sm">
               this is a React app for customisation of text and features having alerts and dark mode enable functionalities.
               </p>
-              <a href="https://textutilityapp.tiiny.site"><button className="bg-blue-500 rounded-3xl font-semibold mt-4 px-3 py-2 rounded-sm hover:bg-blue-700 ">
+              <a href="https://textutilityapp.tiiny.site"><button className="bg-blue-500  font-semibold mt-4 px-3 py-2 rounded-md hover:bg-blue-700 hover:scale-105 transition-transform duration-300 ease-in-out ">
                 View Project
               </button>
               </a>
@@ -475,7 +450,7 @@ function hero() {
               <p className="mt-2 text-sm">
               Developed a clone of the Facebook login page using Tailwind CSS. The project showcases skills in responsive design...
               </p>
-              <a href="https://github.com/yuvrajbhatiofficial/Facebook-Login-Page-Clone"><button className="bg-blue-500 rounded-3xl font-semibold mt-4 px-3 py-2 rounded-sm hover:bg-blue-700 ">
+              <a href="https://github.com/yuvrajbhatiofficial/Facebook-Login-Page-Clone"><button className="bg-blue-500  font-semibold mt-4 px-3 py-2 rounded-md hover:bg-blue-700 hover:scale-105 transition-transform duration-300 ease-in-out ">
                 View Project
               </button>
               </a>
@@ -495,7 +470,7 @@ function hero() {
               <p className="mt-2 text-sm">
               this an mobile application project for hackathon 2024 (Frost hacks) by MLH
               </p>
-              <a href="https://github.com/yuvrajbhatiofficial/EcoAlert"><button className="bg-blue-500 rounded-3xl font-semibold mt-4 px-3 py-2 rounded-sm hover:bg-blue-700 ">
+              <a href="https://github.com/yuvrajbhatiofficial/EcoAlert"><button className="bg-blue-500  font-semibold mt-4 px-3 py-2 rounded-md hover:bg-blue-700 hover:scale-105 transition-transform duration-300 ease-in-out ">
                 View Project
               </button>
               </a>
@@ -506,22 +481,7 @@ function hero() {
 
   
 
-      {/* <div className="social">
-        <div className=" mx-4 ">
-          <h1 className='text-white font-bold text-3xl text-center'>Social</h1>
-        <div className=' flex space-x-3 justify-center'>
-        <SocialIcon bgColor='' fgColor='white' url="https://x.com/_Yuvraj_Bhati_" />
-        <SocialIcon bgColor='black' fgColor='white' url="https://www.instagram.com/yuvrajbhati.12/" />
-        <SocialIcon bgColor='black' fgColor='white' url="https://github.com/yuvrajbhatiofficial" />
-        <SocialIcon bgColor='black' fgColor='white' url="https://www.youtube.com/@yuvraj_bhati" />
-        <SocialIcon bgColor='black' fgColor='white' network="email" url="mailto:yuvrajbhatiofficial@gmail.com" />
-
-        
-        
-
-        </div>
-        </div>
-      </div>  */}
+      
     </>
   );
 }

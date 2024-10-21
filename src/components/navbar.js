@@ -13,10 +13,10 @@ export default function Navbar() {
         <ul className=" space-x-4 flex justify-end items-center mx-1 ">
           
           
-          <Link className="nav-link" to="./about"><button className=" font-mono cursor-pointer  rounded-lg shadow-md hover:shadow-blue-900 px-1">About</button></Link> 
-          <Link className="nav-link" to="./blogs"><button className=" font-mono cursor-pointer  rounded-lg shadow-md hover:shadow-blue-900 px-1">Blogs</button></Link>
+          <Link className="nav-link" to="./about"><button className=" font-mono cursor-pointer  rounded-lg shadow-md hover:shadow-blue-900 hover:scale-105 transition-transform duration-300 ease-in-out px-1">About</button></Link> 
+          <Link className="nav-link" to="./blogs"><button className=" font-mono cursor-pointer  rounded-lg shadow-md hover:shadow-blue-900 hover:scale-105 transition-transform duration-300 ease-in-out px-1">Blogs</button></Link>
            
-          <Link className="nav-link" to="./contact"><button className=" font-mono cursor-pointer rounded-lg shadow-md hover:shadow-blue-900 px-1">Contact</button></Link>
+          <Link className="nav-link" to="./contact"><button className=" font-mono cursor-pointer rounded-lg shadow-md hover:shadow-blue-900 hover:scale-105 transition-transform duration-300 ease-in-out px-1">Contact</button></Link>
         </ul>
       </nav>
       

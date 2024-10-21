@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 .customColor{
     /* background:radial-gradient(#ffffff33 1px, #00091d 1px); */
     background-color: #00091d; /* Base background color */
@@ -117,4 +118,12 @@ padding: 24px;
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+body {
+    cursor: url('../public/cursornew.png'), auto; 
+    
+  }
+  
+
+  
 
