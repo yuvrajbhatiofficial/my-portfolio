@@ -5,6 +5,7 @@ import Imageone from "./369315286-21fd0159-eeb0-497f-9baf-a8d066f4e86c.jpg"
 import Facebook from "./facebook.jpeg"
 import Gallery from "./gallery.jpg"
 
+
 // import { ImMail4 } from "react-icons/im";
 
 <link rel="stylesheet" href="index.css" />;
@@ -49,7 +50,7 @@ function hero() {
           <SocialIcon url="https://www.linkedin.com/in/yuvraj-singh-bhati-57528928a/" />
         </div>
       </div>
-
+  
      
 
 {/*tech stack area dont open p element  */}
