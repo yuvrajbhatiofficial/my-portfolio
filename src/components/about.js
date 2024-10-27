@@ -1,5 +1,5 @@
 import React from 'react'
-import { TextParallaxContentExample } from './cursol'
+// import { TextParallaxContentExample } from './cursol'
 
 
 export default function about() {
@@ -8,7 +8,7 @@ export default function about() {
      <div>
         <div className="mx-4   my-24">
             
-            <TextParallaxContentExample/>
+            {/* <TextParallaxContentExample/> */}
                
         </div>
 

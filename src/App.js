@@ -8,6 +8,7 @@ import Preloader from "./components/preloader"; // Import the Preloader
 
 import { HashRouter as Router, Routes, Route} from "react-router-dom";
 
+
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -29,6 +30,7 @@ function App() {
                 {loading ? (
                     <Preloader /> // Show preloader while loading
                 ) : (
+                    
                     <>
                         <Routes>
                             <Route exact path="/" element={<Hero />} />
