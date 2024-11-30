@@ -17,7 +17,7 @@ export default function Contact() {
 
     emailjs.sendForm('service_7reejjq', 'template_lgrfhsr', form.current, 'RdqRvlUm8_Vlr3-TD')
       .then((result) => {
-        console.log('Email sent successfully!', result.text);
+        // console.log('Email sent successfully!', result.text); 
         setSuccess(true);
         form.current.reset(); // Reset the form after successful submission
       }, (error) => {
@@ -49,7 +49,7 @@ export default function Contact() {
               />
             </div>
 
-            <div className="mb-3">
+            <div className="mb-3" styele={{width: 300px}}>
               <input 
                 className='form w-full h-10 rounded-lg p-5 shadow-md' 
                 type="email" 
@@ -59,7 +59,7 @@ export default function Contact() {
               />
             </div>
 
-            <div className="mb-3">
+            <div className="mb-3" styele={{width: 300px}}>
               <textarea 
                 className='form w-full h-36 rounded-lg p-5 shadow-md' 
                 name='message' 
@@ -68,7 +68,7 @@ export default function Contact() {
               />
             </div>
 
-            <div className="mb-3">
+            <div className="mb-3" styele={{width: 300px}}>
               <input 
                 type="checkbox" 
                 className="form-check-input" 
