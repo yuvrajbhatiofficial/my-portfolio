@@ -4,6 +4,8 @@ import "react-social-icons/vimeo";
 import Imageone from "./369315286-21fd0159-eeb0-497f-9baf-a8d066f4e86c.jpg"
 import Facebook from "./facebook.jpeg"
 import Gallery from "./gallery.jpg"
+import paw from "./MicrosoftTeams-image_14_480x480.jpg.jxl"
+import time from "./jack-gilmore-joe-thompson-mit-whirlwind-00_0.png"
 
 function Hero() {
   return (
@@ -56,21 +58,19 @@ function Hero() {
         </h3>
         <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-6 w-full">
           {[
-            { name: "Android", icon: "android" },
-            { name: "Arduino", icon: "arduino" },
-            { name: "Bootstrap", icon: "bootstrap" },
+            { name: "Vim", icon: "vim" },
             { name: "C", icon: "c" },
             { name: "C++", icon: "cplusplus" },
             { name: "C#", icon: "csharp" },
             { name: "CSS3", icon: "css3" },
-            { name: "Django", icon: "django" },
+            
             { name: "Docker", icon: "docker" },
             { name: "Express", icon: "express" },
             { name: "Figma", icon: "figma" },
             { name: "Firebase", icon: "firebase" },
             { name: "Git", icon: "git" },
             { name: "HTML5", icon: "html5" },
-            { name: "Illustrator", icon: "illustrator" },
+            
             { name: "Java", icon: "java" },
             { name: "JavaScript", icon: "javascript" },
             { name: "Linux", icon: "linux" },
@@ -84,6 +84,9 @@ function Hero() {
             { name: "Sass", icon: "sass" },
             { name: "Tailwind", icon: "tailwindcss" },
             { name: "TypeScript", icon: "typescript" },
+            { name: "Android", icon: "android" },
+            { name: "Arduino", icon: "arduino" },
+            { name: "Bootstrap", icon: "bootstrap" },
           ].map((tech) => (
             <div
               key={tech.name}
@@ -108,6 +111,18 @@ function Hero() {
           Projects
         </h1>
         <div className="grid md:grid-cols-3 gap-8">
+          <ProjectCard
+            title="PawAlert"
+            description="web-app for safety of stray animals usin MERN Stack"
+            image={paw}
+            link="https://github.com/yuvrajbhatiofficial/Paw-Alert"
+          />
+          <ProjectCard
+            title="Time Capsule"
+            description="send messages to future or save somthing to your future ones "
+            image={time}
+            link="https://github.com/yuvrajbhatiofficial/time-capsule"
+          />
           <ProjectCard
             title="TextUtils"
             description="A React app for text customization with dark mode and alert functionalities."
