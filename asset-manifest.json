@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.3137ff44.css",
-    "main.js": "/my-portfolio/static/js/main.18552949.js",
+    "main.css": "/my-portfolio/static/css/main.2798043d.css",
+    "main.js": "/my-portfolio/static/js/main.0fe5ac9f.js",
     "static/js/453.32b7f2b1.chunk.js": "/my-portfolio/static/js/453.32b7f2b1.chunk.js",
     "static/media/jack-gilmore-joe-thompson-mit-whirlwind-00_0.png": "/my-portfolio/static/media/jack-gilmore-joe-thompson-mit-whirlwind-00_0.bb44d8d31c2cf3befa5e.png",
     "static/media/2024-03-25.jpg": "/my-portfolio/static/media/2024-03-25.06391809c2904dfaed86.jpg",
@@ -11,12 +11,12 @@
     "static/media/gallery.jpg": "/my-portfolio/static/media/gallery.c22b4470803b40d316f6.jpg",
     "static/media/facebook.jpeg": "/my-portfolio/static/media/facebook.2ea5ab0ad63561166852.jpeg",
     "index.html": "/my-portfolio/index.html",
-    "main.3137ff44.css.map": "/my-portfolio/static/css/main.3137ff44.css.map",
-    "main.18552949.js.map": "/my-portfolio/static/js/main.18552949.js.map",
+    "main.2798043d.css.map": "/my-portfolio/static/css/main.2798043d.css.map",
+    "main.0fe5ac9f.js.map": "/my-portfolio/static/js/main.0fe5ac9f.js.map",
     "453.32b7f2b1.chunk.js.map": "/my-portfolio/static/js/453.32b7f2b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3137ff44.css",
-    "static/js/main.18552949.js"
+    "static/css/main.2798043d.css",
+    "static/js/main.0fe5ac9f.js"
   ]
 }
