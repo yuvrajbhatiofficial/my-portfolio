@@ -33,12 +33,12 @@ export default function Contact() {
     <div className='flex justify-center min-h-[calc(100vh-120px)]'>
       <form ref={form} onSubmit={sendEmail} className='w-full max-w-md'>
         <div className='container my-24'>
-          <h1 className='text-white mx-4 font-mono text-3xl'>Contact Me</h1>
+          <h1 className='text-white mx-4 font-mono text-4xl'>Contact Me</h1>
 
           {success && <div className="text-green-500">Email sent successfully!</div>}
           {error && <div className="text-red-500">{error}</div>}
 
-          <div className='contactForm mx-4 flex flex-col pt-12 items-center space-y-4 my-5'>
+          <div className='contactForm mx-4 flex flex-col pt-12 items-center size-full space-y-4 my-5'>
             <div className='mb-3'>
               <input 
                 className='form w-full h-10 bg rounded-lg p-5 shadow-md' 
