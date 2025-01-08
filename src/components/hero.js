@@ -4,7 +4,7 @@ import "react-social-icons/vimeo";
 import Imageone from "./369315286-21fd0159-eeb0-497f-9baf-a8d066f4e86c.jpg"
 import Facebook from "./facebook.jpeg"
 import Gallery from "./gallery.jpg"
-import paw from "./MicrosoftTeams-image_14_480x480.jpg.jxl"
+import paw from "./Fostering-Stray-Animals.jpg"
 import time from "./jack-gilmore-joe-thompson-mit-whirlwind-00_0.png"
 
 function Hero() {
