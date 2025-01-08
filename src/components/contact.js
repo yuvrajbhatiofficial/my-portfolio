@@ -30,7 +30,7 @@ export default function Contact() {
   };
 
   return (
-    <div className='flex justify-center'>
+    <div className='flex justify-center min-h-[calc(100vh-120px)]'>
       <form ref={form} onSubmit={sendEmail} className='w-full max-w-md'>
         <div className='container my-24'>
           <h1 className='text-white mx-4 font-mono text-3xl'>Contact Me</h1>
