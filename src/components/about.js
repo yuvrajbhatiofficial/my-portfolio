@@ -1,7 +1,5 @@
 import React from 'react';
 import allsaint from './2024-03-25.jpg'
-import tagore from './tagore-international-school-kuchaman-nagaur-cbse-schools-1z74vcn.jpg'
-import newScience from './new-science-degree-college-ameerpet-hyderabad-degree-colleges-qwy7ouhxxa.jpg'
 export default function About() {
   return (
     <div className="min-h-screen bg-dark text-white pt-20">
@@ -151,7 +149,7 @@ export default function About() {
             <div className="bg-slate-800 rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 hover:shadow-blue-500/25 hover:shadow-lg">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src={newScience}
+                  src="https://content3.jdmagicbox.com/v2/comp/hyderabad/s1/040pxx40.xx40.131205121212.g4s1/catalogue/new-science-degree-college-ameerpet-hyderabad-degree-colleges-qwy7ouhxxa.jpg"
                   alt="College"
                   className="w-full h-full object-cover"
                 />
@@ -176,7 +174,7 @@ export default function About() {
             <div className="bg-slate-800 rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 hover:shadow-purple-500/25 hover:shadow-lg">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src={tagore} 
+                  src="https://content.jdmagicbox.com/comp/kuchaman/x4/9999pxxxx.xxxx.110123100520.h7x4/catalogue/tagore-international-school-kuchaman-nagaur-cbse-schools-1z74vcn.jpg" 
                   alt="High School"
                   className="w-full h-full object-cover"
                 />
