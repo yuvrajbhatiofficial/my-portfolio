@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import SingleBlogWindow from "./SingleBlogWindow";
 
 const Blog = () => {
+  const [selectedBlog, setSelectedBlog] = useState(null);
+
   return (
     <>
       <section className="bg-dark pb-10 pt-20 flex justify-center lg:pb-20 lg:pt-[120px]">
@@ -27,20 +30,45 @@ const Blog = () => {
               CardTitle="Learn React for Beginners"
               CardDescription="Kickstart your journey into web development with this comprehensive React guide! Discover the basics of components, state, and hooks, and build dynamic user interfaces with ease. Perfect for aspiring developers."
               image="https://img.freepik.com/free-vector/young-person-learning-courses-online_23-2148522854.jpg?t=st=1726832031~exp=1726835631~hmac=aeb9fcd872fb5e3c367a30ea20ac07992972778288d22a5c6c5d854b8f259026&w=2000"
-              />
+              onClick={() => setSelectedBlog({
+                date: "Jun 23, 2024",
+                CardTitle: "Learn React for Beginners",
+                CardDescription: "Kickstart your journey into web development with this comprehensive React guide! Discover the basics of components, state, and hooks, and build dynamic user interfaces with ease. Perfect for aspiring developers.",
+                image: "https://img.freepik.com/free-vector/young-person-learning-courses-online_23-2148522854.jpg?t=st=1726832031~exp=1726835631~hmac=aeb9fcd872fb5e3c367a30ea20ac07992972778288d22a5c6c5d854b8f259026&w=2000"
+              })}
+            />
             <BlogCard
               date="Jul 4, 2024"
               CardTitle="Understanding APIs"
               CardDescription=" Dive into the world of APIs and learn how they connect applications, streamline data exchange, and power modern web development. Perfect for developers looking to integrate third-party services and build robust applications!"
               image="https://img.freepik.com/free-vector/gradient-api-infographic_23-2149371582.jpg?t=st=1726832069~exp=1726835669~hmac=faa482856dce9201184be995bbc95c334df39a4a04acd49cc8415d98297c7b1d&w=2000"
+              onClick={() => setSelectedBlog({
+                date: "Jul 4, 2024",
+                CardTitle: "Understanding APIs",
+                CardDescription: "Dive into the world of APIs and learn how they connect applications, streamline data exchange, and power modern web development. Perfect for developers looking to integrate third-party services and build robust applications!",
+                image: "https://img.freepik.com/free-vector/gradient-api-infographic_23-2149371582.jpg?t=st=1726832069~exp=1726835669~hmac=faa482856dce9201184be995bbc95c334df39a4a04acd49cc8415d98297c7b1d&w=2000"
+              })}
             />
             <BlogCard
               date="Aug 22, 2024"
               CardTitle="Introduction to Git and GitHub"
               CardDescription=" Learn the essentials of version control with Git and how to collaborate seamlessly using GitHub. Whether you're working solo or in a team, mastering Git is key to efficient coding and project management!"
               image="https://img.freepik.com/free-vector/gradient-devops-illustration_23-2149379660.jpg?t=st=1726832107~exp=1726835707~hmac=722c40fe35077f45a98f842ddbd27e01228665518347660c15f2b64e6d89ccff&w=2000"
+              onClick={() => setSelectedBlog({
+                date: "Aug 22, 2024",
+                CardTitle: "Introduction to Git and GitHub",
+                CardDescription: " Learn the essentials of version control with Git and how to collaborate seamlessly using GitHub. Whether you're working solo or in a team, mastering Git is key to efficient coding and project management!",
+                image: "https://img.freepik.com/free-vector/gradient-devops-illustration_23-2149379660.jpg?t=st=1726832107~exp=1726835707~hmac=722c40fe35077f45a98f842ddbd27e01228665518347660c15f2b64e6d89ccff&w=2000"
+              })}
             />
           </div>
+
+          {selectedBlog && (
+            <SingleBlogWindow 
+              blog={selectedBlog} 
+              onClose={() => setSelectedBlog(null)} 
+            />
+          )}
         </div>
       </section>
     </>
@@ -49,10 +77,13 @@ const Blog = () => {
 
 export default Blog;
 
-const BlogCard = ({ image, date, CardTitle, CardDescription }) => {
+const BlogCard = ({ image, date, CardTitle, CardDescription, onClick }) => {
   return (
     <>
-      <div className="w-full  px-4 md:w-1/2 hover:bg-slate-900 lg:w-1/3">
+      <div 
+        className="w-full px-4 md:w-1/2 hover:bg-slate-900 lg:w-1/3 cursor-pointer"
+        onClick={onClick}
+      >
         <div className="mb-10 w-full ">
           <div className="mb-8 overflow-hidden   rounded">
             <img src={image} alt="" className="w-full" />
@@ -64,12 +95,13 @@ const BlogCard = ({ image, date, CardTitle, CardDescription }) => {
               </span>
             )}
             <h3>
-              <a
-                href="/#"
+              <p
+                
                 className="mb-4 inline-block text-xl font-semibold text-white  sm:text-2xl lg:text-xl xl:text-2xl"
+                onClick={onClick}
               >
                 {CardTitle}
-              </a>
+              </p>
             </h3>
             <p className="text-base text-body-color text-white">
               {CardDescription}
