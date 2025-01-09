@@ -6,6 +6,7 @@ import Facebook from "./facebook.jpeg"
 import Gallery from "./gallery.jpg"
 import paw from "./Fostering-Stray-Animals.jpg"
 import time from "./jack-gilmore-joe-thompson-mit-whirlwind-00_0.png"
+import gif from "./137184767-79a13ec7-1bb3-4341-a6da-3a149c9c159a.gif"
 
 function Hero() {
   return (
@@ -13,39 +14,53 @@ function Hero() {
       <div className="text-slate-600 font-mono shadow-lg shadow-inherit text-center mt-24">
         welcome to my portfolio{" "}
       </div>
-      <div className="main mx-4 my-10  text-white ">
-        <div className="font-bold font-mono text-4xl">Hi I'am</div>
+      <div className="main mx-4 my-10 text-white">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8">
+          {/* Left side content */}
+          <div className="w-full md:w-3/5">
+            <div className="font-bold font-mono text-4xl">Hi I'am</div>
 
-        <span className="  hover:cursor-custom font-bold my-1 font-sans text-7xl bg-clip-text text-transparent  bg-gradient-to-r from-amber-500 to-pink-600 ">
-          Yuvraj Singh Bhati
-        </span>
+            <span className="hover:cursor-custom font-bold my-1 font-sans text-7xl bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-pink-600">
+              Yuvraj Singh Bhati
+            </span>
 
-        <div className="font-mono my-2 ">
-          Developer , Tech Enthusiast ,Artist
-        </div>
-        <div className="font-sans font-medium">
-          I'm a indie developer passionate about turning ideas into reality
-          through code. With experience across multiple frameworks and
-          languages, I am here to craft intuitive, efficient, and impactful web
-          applications.
-        </div>
-        <div className=" flex mt-3  space-x-2 flex-row ">
-          <a
-            target="/"
-            href="https://drive.google.com/file/d/1Z9NH7hnk9_e2DOq5IshLQu81Jd0cEYSo/view?usp=sharing"
-          >
-            <button className="border-white border  hover:scale-105 transition-transform duration-300 ease-in-out p-2 cursor-pointer  font-mono  shadow-2xl hover:shadow-blue-500 hover:bg-white hover:text-black font-semibold rounded-full ">
-              My Resume
-            </button>
-          </a>
-        </div>
+            <div className="font-mono my-2">
+              Developer , Tech Enthusiast ,Artist
+            </div>
+            <div className="font-sans flex justify-start font-medium">
+              I'm a indie developer passionate about turning ideas into reality 
+              through code. With experience across multiple frameworks and 
+              languages, I am here to craft intuitive, efficient, and impactful web 
+              applications.
+            </div>
+            <div className="flex mt-3 space-x-2 flex-row">
+              <a
+                target="/"
+                href="https://drive.google.com/file/d/1Z9NH7hnk9_e2DOq5IshLQu81Jd0cEYSo/view?usp=sharing"
+              >
+                <button className="border-white border hover:scale-105 transition-transform duration-300 ease-in-out p-2 cursor-pointer font-mono shadow-2xl hover:shadow-blue-500 hover:bg-white hover:text-black font-semibold rounded-full">
+                  My Resume
+                </button>
+              </a>
+            </div>
 
-        <div className=" flex space-x-3 justify-start my-2">
-          <SocialIcon url="https://x.com/_Yuvraj_Bhati_" />
-          <SocialIcon url="https://www.instagram.com/yuvrajbhati.12/" />
-          <SocialIcon url="https://github.com/yuvrajbhatiofficial" />
-          <SocialIcon url="https://www.youtube.com/@yuvraj_bhati" />
-          <SocialIcon url="https://www.linkedin.com/in/yuvraj-singh-bhati-57528928a/" />
+            <div className="flex space-x-3 justify-start my-2">
+              <SocialIcon url="https://x.com/_Yuvraj_Bhati_" />
+              <SocialIcon url="https://www.instagram.com/yuvrajbhati.12/" />
+              <SocialIcon url="https://github.com/yuvrajbhatiofficial" />
+              <SocialIcon url="https://www.youtube.com/@yuvraj_bhati" />
+              <SocialIcon url="https://www.linkedin.com/in/yuvraj-singh-bhati-57528928a/" />
+            </div>
+          </div>
+
+          {/* Right side gif */}
+          <div className="w-full md:w-2/5 flex justify-center">
+            <img 
+              src={gif} 
+              alt="Coding Animation"
+              className="w-full max-w-md rounded-lg transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50"
+            />
+          </div>
         </div>
       </div>
   
@@ -124,6 +139,12 @@ function Hero() {
             link="https://github.com/yuvrajbhatiofficial/time-capsule"
           />
           <ProjectCard
+            title="DNS Server"
+            description="Local DNS server created with dns-packet and dgram "
+            image="https://www.elegantthemes.com/blog/wp-content/uploads/2018/03/what-is-dns.png"
+            link="https://github.com/yuvrajbhatiofficial/DNS-server"
+          />
+          <ProjectCard
             title="TextUtils"
             description="A React app for text customization with dark mode and alert functionalities."
             image={Imageone}
@@ -142,6 +163,7 @@ function Hero() {
             link="https://github.com/yuvrajbhatiofficial/EcoAlert"
           />
         </div>
+        
       </div>
     </>
   );

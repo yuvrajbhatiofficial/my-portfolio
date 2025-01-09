@@ -182,7 +182,7 @@ export default function About() {
               <div className="p-6">
                 <span className="text-purple-400 font-mono text-sm">2020 - 2022</span>
                 <h3 className="text-xl font-bold mb-2 font-mono">Higher Secondary Education</h3>
-                <p className="text-gray-300 font-mono mb-2">Science Stream</p>
+                <p className="text-gray-300 font-mono mb-2">CBSE (Science Stream)</p>
                 <p className="text-gray-400 font-mono">Tagore International School</p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {/* <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm font-mono">
