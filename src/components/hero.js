@@ -7,6 +7,7 @@ import Gallery from "./gallery.jpg"
 import paw from "./Fostering-Stray-Animals.jpg"
 import time from "./jack-gilmore-joe-thompson-mit-whirlwind-00_0.png"
 import gif from "./137184767-79a13ec7-1bb3-4341-a6da-3a149c9c159a.gif"
+import todoimage from "./Screenshot 2025-01-12 at 5.35.11 AM.png"
 
 function Hero() {
   return (
@@ -144,6 +145,12 @@ function Hero() {
             image="https://www.elegantthemes.com/blog/wp-content/uploads/2018/03/what-is-dns.png"
             link="https://github.com/yuvrajbhatiofficial/DNS-server"
           />
+            <ProjectCard
+             title="To-do app"
+             description="to-do Web app use event listeners "
+             image={todoimage}
+             link="https://github.com/yuvrajbhatiofficial/To-Do-app"
+           />
           <ProjectCard
             title="TextUtils"
             description="A React app for text customization with dark mode and alert functionalities."
