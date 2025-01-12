@@ -33,7 +33,7 @@ const Blog = () => {
               onClick={() => setSelectedBlog({
                 date: "Jun 23, 2024",
                 CardTitle: "Learn React for Beginners",
-                CardDescription: "Kickstart your journey into web development with this comprehensive React guide! Discover the basics of components, state, and hooks, and build dynamic user interfaces with ease. Perfect for aspiring developers.",
+                CardDescription: "Kickstart Your Journey into Web Development with ReactReact is a powerful JavaScript library for building dynamic user interfaces. Its component-based architecture and efficient rendering make it a favorite among developers. In this guide, we’ll cover the basics of React, including components, state, and hooks, to help you get started.",
                 image: "https://img.freepik.com/free-vector/young-person-learning-courses-online_23-2148522854.jpg?t=st=1726832031~exp=1726835631~hmac=aeb9fcd872fb5e3c367a30ea20ac07992972778288d22a5c6c5d854b8f259026&w=2000"
               })}
             />

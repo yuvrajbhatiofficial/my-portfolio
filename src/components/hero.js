@@ -129,7 +129,7 @@ function Hero() {
         <div className="grid md:grid-cols-3 gap-8">
           <ProjectCard
             title="PawAlert"
-            description="web-app for safety of stray animals usin MERN Stack"
+            description="web-app for safety of stray animals using MERN Stack"
             image={paw}
             link="https://github.com/yuvrajbhatiofficial/Paw-Alert"
           />
