@@ -34,7 +34,7 @@ function Hero() {
             <div className="flex mt-3 space-x-2 flex-row">
               <a
                 target="/"
-                href="https://drive.google.com/file/d/1Z9NH7hnk9_e2DOq5IshLQu81Jd0cEYSo/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ocPyMPVHzBC3YK6QIBHkrhq-xr3k6s_g/view?usp=sharing"
               >
                 <button className="border-white border hover:scale-105 transition-transform duration-300 ease-in-out p-2 cursor-pointer font-mono shadow-2xl hover:shadow-blue-500 hover:bg-white hover:text-black font-semibold rounded-full">
                   My Resume
