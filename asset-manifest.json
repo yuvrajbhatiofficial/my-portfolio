@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.074661a4.css",
-    "main.js": "/my-portfolio/static/js/main.2b34c445.js",
+    "main.css": "/my-portfolio/static/css/main.859d49df.css",
+    "main.js": "/my-portfolio/static/js/main.e3532886.js",
     "static/js/453.32b7f2b1.chunk.js": "/my-portfolio/static/js/453.32b7f2b1.chunk.js",
     "static/media/jack-gilmore-joe-thompson-mit-whirlwind-00_0.png": "/my-portfolio/static/media/jack-gilmore-joe-thompson-mit-whirlwind-00_0.bb44d8d31c2cf3befa5e.png",
     "static/media/137184767-79a13ec7-1bb3-4341-a6da-3a149c9c159a.gif": "/my-portfolio/static/media/137184767-79a13ec7-1bb3-4341-a6da-3a149c9c159a.15a8a48bf35f99a47ed2.gif",
@@ -9,16 +9,13 @@
     "static/media/2024-03-25.jpg": "/my-portfolio/static/media/2024-03-25.06391809c2904dfaed86.jpg",
     "static/media/Bhati.png": "/my-portfolio/static/media/Bhati.11d81b6f22699099def8.png",
     "static/media/Fostering-Stray-Animals.jpg": "/my-portfolio/static/media/Fostering-Stray-Animals.7fd3c7535a0e89637d5c.jpg",
-    "static/media/369315286-21fd0159-eeb0-497f-9baf-a8d066f4e86c.jpg": "/my-portfolio/static/media/369315286-21fd0159-eeb0-497f-9baf-a8d066f4e86c.d0da0b497fb7a3671e2a.jpg",
-    "static/media/gallery.jpg": "/my-portfolio/static/media/gallery.c22b4470803b40d316f6.jpg",
-    "static/media/facebook.jpeg": "/my-portfolio/static/media/facebook.2ea5ab0ad63561166852.jpeg",
     "index.html": "/my-portfolio/index.html",
-    "main.074661a4.css.map": "/my-portfolio/static/css/main.074661a4.css.map",
-    "main.2b34c445.js.map": "/my-portfolio/static/js/main.2b34c445.js.map",
+    "main.859d49df.css.map": "/my-portfolio/static/css/main.859d49df.css.map",
+    "main.e3532886.js.map": "/my-portfolio/static/js/main.e3532886.js.map",
     "453.32b7f2b1.chunk.js.map": "/my-portfolio/static/js/453.32b7f2b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.074661a4.css",
-    "static/js/main.2b34c445.js"
+    "static/css/main.859d49df.css",
+    "static/js/main.e3532886.js"
   ]
 }
