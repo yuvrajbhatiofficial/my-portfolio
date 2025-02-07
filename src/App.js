@@ -77,9 +77,9 @@ function App() {
             {/* Right Side - Social Links */}
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-end">
               <div className="flex space-x-4 mb-4">
-                <SocialIcon url="https://github.com/yuvrajbhatiofficial" bgColor="#374151" fgColor="white" />
-                <SocialIcon url="https://twitter.com/_Yuvraj_Bhati_" bgColor="#374151" fgColor="white" />
-                <SocialIcon url="https://www.linkedin.com/in/yuvraj-singh-bhati-57528928a/" bgColor="#374151" fgColor="white" />
+                <SocialIcon target="_blank" url="https://github.com/yuvrajbhatiofficial" bgColor="#374151" fgColor="white" />
+                <SocialIcon target="_blank" url="https://twitter.com/_Yuvraj_Bhati_" bgColor="#374151" fgColor="white" />
+                <SocialIcon target="_blank" url="https://www.linkedin.com/in/yuvraj-singh-bhati-57528928a/" bgColor="#374151" fgColor="white" />
                 {/* <SocialIcon url="https://www.youtube.com/@yuvraj_bhati" bgColor="#374151" fgColor="white" /> */}
               </div>
               <div className="text-gray-400 text-sm">

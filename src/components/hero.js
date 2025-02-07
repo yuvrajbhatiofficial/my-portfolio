@@ -42,11 +42,11 @@ function Hero() {
               </a>
             </div>
 
-            <div className="flex space-x-3 justify-start my-2">
-              <SocialIcon url="https://x.com/_Yuvraj_Bhati_" />
-              <SocialIcon url="https://www.linkedin.com/in/yuvraj-singh-bhati-57528928a/" />
-              <SocialIcon url="https://github.com/yuvrajbhatiofficial" />
-              <SocialIcon url="https://www.instagram.com/yuvrajbhati.12/" />
+            <div className="flex space-x-3 justify-start my-2 touch-pinch-zoom">
+              <SocialIcon target="_blank" url="https://x.com/_Yuvraj_Bhati_" />
+              <SocialIcon target="_blank" url="https://www.linkedin.com/in/yuvraj-singh-bhati-57528928a/" />
+              <SocialIcon target="_blank" url="https://github.com/yuvrajbhatiofficial" />
+              <SocialIcon target="_blank" url="https://www.instagram.com/yuvrajbhati.12/" />
               {/* <SocialIcon url="https://www.youtube.com/@yuvraj_bhati" /> */}
             </div>
           </div>

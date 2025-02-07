@@ -112,6 +112,7 @@ export default function About() {
                 <h3 className="text-2xl font-bold text-white font-mono">Gaming</h3>
               </div>
             </div>
+            
 
             {/* Basketball */}
             <div className="relative group transform hover:scale-105 transition-all duration-300 aspect-square">
@@ -125,6 +126,7 @@ export default function About() {
                 <h3 className="text-xl font-bold text-white font-mono">Basketball</h3>
               </div>
             </div>
+            
 
             {/* Chess */}
             <div className="relative group transform hover:scale-105 transition-all duration-300 aspect-square">
@@ -135,7 +137,7 @@ export default function About() {
                 className="w-full h-full object-cover rounded-lg"
               />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h3 className="text-xl font-bold text-white font-mono">Chess Master</h3>
+                <h3 className="text-xl font-bold text-white font-mono">Chess</h3>
               </div>
             </div>
           </div>
