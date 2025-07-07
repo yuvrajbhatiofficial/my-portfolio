@@ -107,6 +107,7 @@ function Hero() {
           {[
             { name: "React", icon: "react" },
             { name: "Next.js", icon: "nextjs" },
+            {name: "React Native", icon:"react"},
             { name: "Node.js", icon: "nodejs" },
             { name: "Express", icon: "express" },
             { name: "Bootstrap", icon: "bootstrap" },
