@@ -5,6 +5,7 @@ import paw from "./Fostering-Stray-Animals.jpg"
 import time from "./jack-gilmore-joe-thompson-mit-whirlwind-00_0.png"
 import gif from "./137184767-79a13ec7-1bb3-4341-a6da-3a149c9c159a.gif"
 import todoimage from "./Screenshot 2025-01-12 at 5.35.11 AM.png"
+import devchat from "./devchatlogo.png"
 
 
 function Hero() {
@@ -194,6 +195,49 @@ function Hero() {
           Projects
         </h1>
         <div className="grid md:grid-cols-3 gap-8">
+          {/* Chat-app */}
+          <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105">
+            <img src={devchat} alt="dev chat" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h3 className="text-xl font-bold text-white mb-2">Dev Chat</h3>
+              <p className="text-gray-400 mb-4">A full stack chat-app</p>
+              
+              <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                  {name: "nextjs", icon: "nextjs"},
+                  {name: "javascript", icon: "javascript"},
+                  {name: "tailwindcss", icon: "tailwindcss"},
+                  {name: "sqlite3", icon: "sqlite"},
+                  {name: "socketio", icon: "socketio"},
+                  { name: "Express", icon: "express" },
+                  { name: "React", icon: "react" },
+                  { name: "Node.js", icon: "nodejs" },
+                  
+                ].map((tech) => (
+                  <div 
+                    key={tech.name}
+                    className="flex items-center justify-center bg-gray-700 rounded-md p-1.5"
+                    title={tech.name}
+                  >
+                    <img
+                      src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech.icon}/${tech.icon}-original.svg`}
+                      alt={tech.name}
+                      className="w-5 h-5 opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                    />
+                  </div>
+                ))}
+              </div>
+
+              <a
+                href="https://chat-app-virid-gamma-79.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 transition-colors duration-300"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
           {/* PawAlert Project */}
           <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105">
             <img src={paw} alt="PawAlert" className="w-full h-48 object-cover" />
@@ -222,6 +266,7 @@ function Hero() {
                   </div>
                 ))}
               </div>
+              
 
               <a
                 href="https://github.com/yuvrajbhatiofficial/Paw-Alert"
