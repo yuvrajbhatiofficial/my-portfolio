@@ -4,6 +4,7 @@ import Hero from "./components/hero";
 import Contact from "./components/contact";
 import Blogs from "./components/blogs";
 import About from "./components/about";
+import CaseFile from "./components/caseFile";
 import Preloader from "./components/preloader"; // Import the Preloader
 import { SocialIcon } from 'react-social-icons';
 
@@ -38,6 +39,7 @@ function App() {
                             <Route exact path="/contact" element={<Contact />} />
                             <Route exact path="/blogs" element={<Blogs />} />
                             <Route exact path="/about" element={<About />} />
+                            <Route exact path="/case-files" element={<CaseFile />} />
                         </Routes>
                         <Navbar />
                     </>

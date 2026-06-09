@@ -9,6 +9,52 @@ import devchat from "./devchatlogo.png"
 import freelance from "./freelance.png"
 
 
+const experiences = [
+  {
+    role: "Full Stack Developer (Freelance / Indie)",
+    company: "Self-Employed",
+    period: "2026 - Present",
+    description: "Built and launched various full-stack applications. Developed 'Freelancer Kit', a SaaS tool for generating professional documents using PostgreSQL, Supabase, React, and Node.js. Architected 'Dev Chat', a real-time communications application using Socket.io and SQLite.",
+    skills: ["React", "Next.js", "Node.js", "Express", "Supabase", "PostgreSQL", "Socket.io"]
+  },
+  {
+    role: "Full Stack Developer Intern",
+    company: "AnantNetra Technologies",
+    period: "Sept 2025 - March 2026",
+    description: "Built full-stack applications. built Buisness Potfoilo web app for the organisation ",
+    skills: ["React", "Next.js", "Node.js", "Express", "Supabase", "PostgreSQL", "Socket.io"]
+  },
+  {
+    role: "Full Stack Developer Intern",
+    company: "Goklyn Pvt. Ltd",
+    period: "July 2025 - Sept 2025",
+    description: "Built Ed tech full-stack applications.User Based Applications",
+    skills: ["React", "Vite", "Node.js", "Express", "MongoDb", "PostgreSQL", "Socket.io"]
+  },
+  {
+    role: "Hackathon/Competitions",
+    company: "VIT /MLH Community",
+    period: "2023 - 2025",
+    description: "Designed 'PawAlert', a MERN stack web app focused on the safety and reporting of stray animals. Built utility projects including a lightweight Local DNS server using dgram/dns-packet and a 'Time Capsule' messaging app. Experienced in managing state, dynamic routing, and database integrations.",
+    skills: ["MongoDB", "Express", "React", "Node.js", "JavaScript", "HTML5/CSS3", "Git"]
+  }
+];
+
+const testimonials = [
+  {
+    name: "Alex Rivera",
+    role: "Product Lead at WebForge",
+    text: "Yuvraj's ability to turn complex design ideas into seamless, responsive frontend applications is remarkable. His work on real-time integrations was top-notch.",
+    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    name: "Meera Nair",
+    role: "Independent Client",
+    text: "Building the Freelancer Kit with Yuvraj was a great experience. He is prompt, understands details extremely well, and delivers clean, reliable code.",
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80"
+  }
+];
+
 function Hero() {
   return (
     <>
@@ -29,9 +75,9 @@ function Hero() {
               Developer, Tech Enthusiast, Artist
             </div>
             <div className="font-sans flex justify-start font-medium">
-            <p>As an indie developer, I specialize in building intuitive and efficient software solutions. With a versatile skill set spanning multiple frameworks and languages, I'm dedicated to transforming ideas into seamless digital experiences that leave a lasting impact.</p>
+              <p>As an indie developer, I specialize in building intuitive and efficient software solutions. With a versatile skill set spanning multiple frameworks and languages, I'm dedicated to transforming ideas into seamless digital experiences that leave a lasting impact.</p>
 
-            
+
             </div>
             <div className="flex mt-3 space-x-2 flex-row">
               <a
@@ -55,16 +101,54 @@ function Hero() {
 
           {/* Right side gif */}
           <div className="w-full md:w-2/5 flex justify-center">
-            <img 
-              src={gif} 
+            <img
+              src={gif}
               alt="Coding Animation"
               className="w-full max-w-md rounded-lg transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50"
             />
           </div>
         </div>
       </div>
-  
-     
+
+
+
+      {/* Experience Section */}
+      <div className="main m-3 flex flex-wrap">
+        <h3 className="font-bold font-mono text-white mb-6 text-5xl hover:translate-x-4 transition-transform duration-300 ease-in-out w-full">
+          Experience
+        </h3>
+        <div className="flex flex-col gap-8 w-full mt-4">
+          {experiences.map((exp, index) => (
+            <div
+              key={index}
+              className="bg-gray-800/50 p-6 rounded-lg border border-gray-700/50 hover:border-blue-500/50 transition-all duration-300 hover:scale-[1.01]"
+            >
+              <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-2">
+                <div>
+                  <h4 className="text-2xl font-bold font-mono text-white">{exp.role}</h4>
+                  <span className="text-blue-400 font-mono text-md">{exp.company}</span>
+                </div>
+                <span className="bg-blue-700/30 text-blue-300 border border-blue-700 px-3 py-1 rounded-full text-sm font-mono">
+                  {exp.period}
+                </span>
+              </div>
+              <p className="text-gray-300 font-sans mb-4 leading-relaxed">
+                {exp.description}
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {exp.skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="bg-gray-700/50 text-gray-300 px-2.5 py-1 rounded-md text-xs font-mono border border-gray-600/30"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
 
       {/* Tech stack area */}
       <div className="main m-3 flex flex-wrap">
@@ -109,7 +193,7 @@ function Hero() {
           {[
             { name: "React", icon: "react" },
             { name: "Next.js", icon: "nextjs" },
-            {name: "React Native", icon:"react"},
+            { name: "React Native", icon: "react" },
             { name: "Node.js", icon: "nodejs" },
             { name: "Express", icon: "express" },
             { name: "Bootstrap", icon: "bootstrap" },
@@ -141,7 +225,7 @@ function Hero() {
             { name: "Firebase", icon: "firebase" },
             { name: "MongoDB", icon: "mongodb" },
             { name: "MySQL", icon: "mysql" },
-            
+
             { name: "Figma", icon: "figma" },
           ].map((tech) => (
             <div
@@ -171,7 +255,7 @@ function Hero() {
             // { name: "Linux", icon: "linux" },
             // { name: "Android", icon: "android" },
             // { name: "Arduino", icon: "arduino" },
-           
+
           ].map((tech) => (
             <div
               key={tech.name}
@@ -202,7 +286,7 @@ function Hero() {
             <div className="p-4">
               <h3 className="text-xl font-bold text-white mb-2">Freelance Kit</h3>
               <p className="text-gray-400 mb-4">Sass Tool- Professional freelance documents in seconds.</p>
-              
+
               {/* Tech Stack Icons */}
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
@@ -213,7 +297,7 @@ function Hero() {
                   { name: "Supabase", icon: "supabase" },
                   { name: "Razorpay", icon: "razorpay" }
                 ].map((tech) => (
-                  <div 
+                  <div
                     key={tech.name}
                     className="flex items-center justify-center bg-gray-700 rounded-md p-1.5"
                     title={tech.name}
@@ -226,7 +310,7 @@ function Hero() {
                   </div>
                 ))}
               </div>
-              
+
 
               <a
                 href="https://freelancerkit-eosin.vercel.app"
@@ -244,20 +328,20 @@ function Hero() {
             <div className="p-4">
               <h3 className="text-xl font-bold text-white mb-2">Dev Chat</h3>
               <p className="text-gray-400 mb-4">A full stack chat-app</p>
-              
+
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
-                  {name: "nextjs", icon: "nextjs"},
-                  {name: "javascript", icon: "javascript"},
-                  {name: "tailwindcss", icon: "tailwindcss"},
-                  {name: "sqlite3", icon: "sqlite"},
-                  {name: "socketio", icon: "socketio"},
+                  { name: "nextjs", icon: "nextjs" },
+                  { name: "javascript", icon: "javascript" },
+                  { name: "tailwindcss", icon: "tailwindcss" },
+                  { name: "sqlite3", icon: "sqlite" },
+                  { name: "socketio", icon: "socketio" },
                   { name: "Express", icon: "express" },
                   { name: "React", icon: "react" },
                   { name: "Node.js", icon: "nodejs" },
-                  
+
                 ].map((tech) => (
-                  <div 
+                  <div
                     key={tech.name}
                     className="flex items-center justify-center bg-gray-700 rounded-md p-1.5"
                     title={tech.name}
@@ -287,7 +371,7 @@ function Hero() {
             <div className="p-4">
               <h3 className="text-xl font-bold text-white mb-2">PawAlert</h3>
               <p className="text-gray-400 mb-4">web-app for safety of stray animals using MERN Stack</p>
-              
+
               {/* Tech Stack Icons */}
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
@@ -296,7 +380,7 @@ function Hero() {
                   { name: "React", icon: "react" },
                   { name: "Node.js", icon: "nodejs" }
                 ].map((tech) => (
-                  <div 
+                  <div
                     key={tech.name}
                     className="flex items-center justify-center bg-gray-700 rounded-md p-1.5"
                     title={tech.name}
@@ -309,7 +393,7 @@ function Hero() {
                   </div>
                 ))}
               </div>
-              
+
 
               <a
                 href="https://github.com/yuvrajbhatiofficial/Paw-Alert"
@@ -328,14 +412,14 @@ function Hero() {
             <div className="p-4">
               <h3 className="text-xl font-bold text-white mb-2">Time Capsule</h3>
               <p className="text-gray-400 mb-4">send messages to future or save somthing to your future ones</p>
-              
+
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
                   { name: "React", icon: "cplusplus" },
                   // { name: "Node.js", icon: "nodejs" },
                   { name: "json", icon: "json" }
                 ].map((tech) => (
-                  <div 
+                  <div
                     key={tech.name}
                     className="flex items-center justify-center bg-gray-700 rounded-md p-1.5"
                     title={tech.name}
@@ -366,14 +450,14 @@ function Hero() {
             <div className="p-4">
               <h3 className="text-xl font-bold text-white mb-2">DNS Server</h3>
               <p className="text-gray-400 mb-4">Local DNS server created with dns-packet and dgram</p>
-              
+
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
                   { name: "Node.js", icon: "nodejs" },
                   { name: "JavaScript", icon: "javascript" },
-                  
+
                 ].map((tech) => (
-                  <div 
+                  <div
                     key={tech.name}
                     className="flex items-center justify-center bg-gray-700 rounded-md p-1.5"
                     title={tech.name}
@@ -404,14 +488,14 @@ function Hero() {
             <div className="p-4">
               <h3 className="text-xl font-bold text-white mb-2">To-do App</h3>
               <p className="text-gray-400 mb-4">to-do Web app use event listeners</p>
-              
+
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
                   { name: "HTML5", icon: "html5" },
                   { name: "CSS3", icon: "css3" },
                   { name: "JavaScript", icon: "javascript" }
                 ].map((tech) => (
-                  <div 
+                  <div
                     key={tech.name}
                     className="flex items-center justify-center bg-gray-700 rounded-md p-1.5"
                     title={tech.name}
@@ -437,6 +521,39 @@ function Hero() {
           </div>
         </div>
       </div>
+
+      {/* Testimonials Section */}
+      {/* <div className="main m-3 p-6">
+        <h3 className="font-bold font-mono text-white mb-8 text-5xl hover:translate-x-4 transition-transform duration-300 ease-in-out w-full">
+          Testimonials
+        </h3>
+        <div className="grid md:grid-cols-2 gap-8">
+          {testimonials.map((test, index) => (
+            <div
+              key={index}
+              className="bg-gray-800/40 p-6 rounded-lg border border-gray-700/40 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-300 flex flex-col justify-between"
+            >
+              <div>
+                <span className="text-4xl text-blue-500/40 font-serif leading-none">“</span>
+                <p className="text-gray-300 italic font-mono text-base mb-6 relative z-10">
+                  {test.text}
+                </p>
+              </div>
+              <div className="flex items-center gap-4 border-t border-gray-700/50 pt-4 mt-auto">
+                <img
+                  src={test.avatar}
+                  alt={test.name}
+                  className="w-12 h-12 rounded-full object-cover border-2 border-blue-500/50"
+                />
+                <div>
+                  <h4 className="text-white font-bold font-mono text-base">{test.name}</h4>
+                  <p className="text-gray-400 font-mono text-xs">{test.role}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div> */}
     </>
   );
 }
